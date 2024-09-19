@@ -1,0 +1,55 @@
+
+.scheduler {
+    display: grid;
+    grid-template-columns: 100px repeat(4, 1fr);
+    border: 1px solid #ddd;
+}
+
+.header {
+    display: contents;
+}
+
+.time {
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.resourceHeader {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.row {
+    display: contents;
+}
+
+.cell {
+    height: 40px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    position: relative;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.cell:hover {
+    background-color: #e6f7ff;
+}
+
+.event {
+    background-color: #1890ff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}

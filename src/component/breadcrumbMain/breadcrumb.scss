@@ -1,0 +1,21 @@
+.block-main__breadcrumb{
+    a{
+        &:hover{
+            background-color: transparent;
+            color: var(--color-blue);
+        }
+    }
+
+    &.dark{
+        a{
+            color: var(--color-gray-dark);
+            &:hover{
+                background-color: transparent;
+                color: var(--color-blue);
+            }
+        }   
+        .ant-breadcrumb-separator{
+            color: var(--color-gray-dark);           
+        }
+    }
+}
